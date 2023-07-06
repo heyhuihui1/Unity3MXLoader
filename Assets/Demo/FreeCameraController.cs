@@ -43,8 +43,8 @@ public class FreeCameraController : MonoBehaviour
     private Vector3 cPosition = Vector3.zero;
 
     //旋转速度
-    public float SpeedX = 240;
-    public float SpeedY = 120;
+    public float SpeedX = 24;
+    public float SpeedY = 12;
     //旋转角度
     private float rX = 0.0F;
     private float rY = 0.0F;

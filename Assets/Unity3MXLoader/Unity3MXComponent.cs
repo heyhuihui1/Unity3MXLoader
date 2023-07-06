@@ -250,6 +250,7 @@ namespace Unity3MX
         //½âÎöJsonÎÄ±¾
         private void parseRootJson(string jsonText)
         {
+            Console.WriteLine(jsonText);
             JObject jRoot = JObject.Parse(jsonText);
             JArray jLayers = (JArray)jRoot.GetValue("layers");
             JObject jLayer = (JObject)jLayers[0];
